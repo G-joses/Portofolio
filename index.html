@@ -1,232 +1,276 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
-    <head>
-        <meta charset="UTF-8">
-        <title>Joses | Portofolio</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="style.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <title>Joses | Portofolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600;700&family=DM+Serif+Display&display=swap" rel="stylesheet">
+</head>
 
-    <body>
+<body>
 
-        <!-- Navbar -->
-        <header>
-            <nav>
-                <div class="logo">
-                        <a href="#top">Joses</a>
-                </div>
-                <ul>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#skills">Skills</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#experience">Experience</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </nav>
-        </header>
+    <!-- ========================
+         NAVBAR
+    ======================== -->
+    <header id="navbar">
+        <nav>
+            <div class="logo">
+                <a href="#top">Joses</a>
+            </div>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
-        <!-- Hero -->
-        <section class="hero" id="top">
+    <!-- ========================
+         HERO
+    ======================== -->
+    <section class="hero" id="top">
+        <div class="hero-content">
+            <p class="hero-label">👋 Hello, I'm</p>
             <h1>Gregorius Joses Davin</h1>
             <h2>Aspiring Full Stack Developer</h2>
-            <p>
-                Developer with IT Support background, focused on building web applications 
-            while strengthening backend and networking fundamentals.
+            <p class="hero-desc">
+                Developer with IT Support background, focused on building web applications
+                while strengthening backend and networking fundamentals.
             </p>
-            <a href="#projects" class="btn">View Projects</a>
+            <div class="hero-buttons">
+                <a href="#projects" class="btn">View Projects</a>
+                <a href="#contact" class="btn btn-outline">Contact Me</a>
+            </div>
             <div class="social-icons">
-                <a href="https://github.com/G-joses" target="_blank">
+                <a href="https://github.com/G-joses" target="_blank" aria-label="GitHub">
                     <i class="fab fa-github"></i>
                 </a>
-                <a href="https://www.linkedin.com/in/gregorius-joses-davin-oemar-869073223/" target="_blank">
+                <a href="https://www.linkedin.com/in/gregorius-joses-davin-oemar-869073223/" target="_blank" aria-label="LinkedIn">
                     <i class="fab fa-linkedin"></i>
                 </a>
             </div>
-        </section>
+        </div>
+    </section>
 
-        <!-- About -->
-        <section id="about">
-            <h2>About Me</h2>
+    <!-- ========================
+         ABOUT
+    ======================== -->
+    <section id="about">
+        <div class="section-inner">
+            <h2 class="section-title">About Me</h2>
             <div class="about-content">
-            <p>
-                I am a Full Stack Developer (Aspiring) with one year of professional 
-                experience as an IT Support. During my time as IT Support, I handled 
-                hardware and software troubleshooting, operating system installation, 
-                and daily technical assistance for users. I also set up a small-scale 
-                network infrastructure from scratch and configured routers independently, 
-                which strengthened my understanding of networking fundamentals.
-            </p>
-
-            <p>
-                My programming journey began during college, where I developed several 
-                academic projects including my thesis web application. Currently, I focus 
-                on improving my backend development skills using PHP frameworks such as 
-                Laravel and CodeIgniter, while understanding core concepts like MVC 
-                architecture and basic database relationships.
-            </p>
-
-            <p>
-                I enjoy learning through hands-on practice by building real projects, 
-                studying documentation, watching technical discussions, and experimenting 
-                with different Linux distributions. My IT Support background has trained 
-                me to troubleshoot problems independently and think analytically — skills 
-                that I now apply in software development.
-            </p>
-
-            <p>
-                I am flexible in my career path, open to both IT Support and Developer roles, 
-                and committed to continuously improving my technical skills to become a 
-                reliable and well-rounded technology professional.
-            </p>
+                <p>
+                    I am a Full Stack Developer (Aspiring) with one year of professional
+                    experience as an IT Support. During my time as IT Support, I handled
+                    hardware and software troubleshooting, operating system installation,
+                    and daily technical assistance for users. I also set up a small-scale
+                    network infrastructure from scratch and configured routers independently,
+                    which strengthened my understanding of networking fundamentals.
+                </p>
+                <p>
+                    My programming journey began during college, where I developed several
+                    academic projects including my thesis web application. Currently, I focus
+                    on improving my backend development skills using PHP frameworks such as
+                    Laravel and CodeIgniter, while understanding core concepts like MVC
+                    architecture and basic database relationships.
+                </p>
+                <p>
+                    I enjoy learning through hands-on practice by building real projects,
+                    studying documentation, watching technical discussions, and experimenting
+                    with different Linux distributions. My IT Support background has trained
+                    me to troubleshoot problems independently and think analytically — skills
+                    that I now apply in software development.
+                </p>
+                <p>
+                    I am flexible in my career path, open to both IT Support and Developer roles,
+                    and committed to continuously improving my technical skills to become a
+                    reliable and well-rounded technology professional.
+                </p>
             </div>
-        </section>
+        </div>
+    </section>
 
-        <!-- Skills -->
-        <section id="skills">
-            <h2>Skills</h2>
+    <!-- ========================
+         SKILLS
+    ======================== -->
+    <section id="skills">
+        <div class="section-inner">
+            <h2 class="section-title">Skills</h2>
             <div class="skills-container">
-                <div>
-                    <h3>Frontend Skills</h3>
-                    <ul>
-                        <li>HTML</li>
-                        <li>CSS</li>
-                    </ul>
-                    <h3>Backend Skills</h3>
-                    <ul>
-                        <li>PHP</li>
-                        <li>Codeigniter</li>
-                        <li>Laravel</li>
-                    </ul>
+
+                <div class="skill-group">
+                    <h3>Frontend</h3>
+                    <div class="badge-container">
+                        <span class="badge">HTML</span>
+                        <span class="badge">CSS</span>
+                        <span class="badge">JavaScript</span>
+                    </div>
                 </div>
-                <div>
+
+                <div class="skill-group">
+                    <h3>Backend</h3>
+                    <div class="badge-container">
+                        <span class="badge">PHP</span>
+                        <span class="badge">Laravel</span>
+                        <span class="badge">CodeIgniter</span>
+                    </div>
+                </div>
+
+                <div class="skill-group">
                     <h3>IT Support</h3>
-                    <ul>
-                        <li>Hardware & Software Troubleshooting</li>
-                        <li>OS Installation & Configuration</li>
-                        <li>User Technical Support</li>
-                    </ul>
-                    <h3>Networking</h3>
-                    <ul>
-                        <li>Router Configuration (MikroTik RouterOS)</li>
-                        <li>IP Addressing & DHCP</li>
-                        <li>Basic Firewall Rules</li>
-                        <li>Basic Limit Bandwidth</li>
-                    </ul>
+                    <div class="badge-container">
+                        <span class="badge">Hardware Troubleshooting</span>
+                        <span class="badge">OS Installation</span>
+                        <span class="badge">User Support</span>
+                    </div>
                 </div>
+
+                <div class="skill-group">
+                    <h3>Networking</h3>
+                    <div class="badge-container">
+                        <span class="badge">MikroTik RouterOS</span>
+                        <span class="badge">IP Addressing</span>
+                        <span class="badge">DHCP</span>
+                        <span class="badge">Firewall Rules</span>
+                        <span class="badge">Bandwidth Limit</span>
+                    </div>
+                </div>
+
             </div>
-        </section>
+        </div>
+    </section>
 
-        <!-- Projects -->
-        <section id="projects" class="projects">
-            <h2>Projects</h2>
+    <!-- ========================
+         PROJECTS
+    ======================== -->
+    <section id="projects">
+        <div class="section-inner">
+            <h2 class="section-title">Projects</h2>
 
-            <!-- Projek Login Template  start -->
+            <!-- Project 1 -->
             <div class="project-card">
                 <div class="project-wrapper">
-
                     <div class="project-image">
                         <img src="image/login.jpg" alt="Simple Login Template">
-                        <a href="https://g-joses.github.io/login-template/" class="btn" target="_blank" rel="noopener noreferrer">Live Demo</a>
-                        <a href="https://github.com/G-joses/login-template" class="btn" target="_blank" rel="noopener noreferrer">Source Code</a>
+                        <div class="project-buttons">
+                            <a href="https://g-joses.github.io/login-template/" class="btn" target="_blank" rel="noopener noreferrer">
+                                <i class="fas fa-external-link-alt"></i> Live Demo
+                            </a>
+                            <a href="https://github.com/G-joses/login-template" class="btn btn-outline" target="_blank" rel="noopener noreferrer">
+                                <i class="fab fa-github"></i> Source Code
+                            </a>
+                        </div>
                     </div>
-
                     <div class="project-content">
+                        <span class="project-tag">HTML · CSS · JavaScript</span>
                         <h3>Simple Login Template</h3>
-
                         <p>
-                            A reusable and responsive authentication login template designed 
-                            for modern web applications. The template focuses on clean UI 
-                            structure, user-friendly layout, and easy integration with 
+                            A reusable and responsive authentication login template designed
+                            for modern web applications. The template focuses on clean UI
+                            structure, user-friendly layout, and easy integration with
                             backend authentication systems.
                         </p>
-
-                        <p><strong>Key Features:</strong></p>
-                        <ul>
+                        <ul class="project-features">
                             <li>Responsive login interface</li>
                             <li>Clean and structured UI layout</li>
                             <li>Ready for backend authentication integration</li>
                             <li>Simple and maintainable code structure</li>
                         </ul>
-
-                        <p><strong>Tech Stack:</strong> HTML, CSS, JavaScript</p>
-
-                        <p><strong>Concepts Applied:</strong> 
-                            UI layout structuring, responsive design, reusable component design.
+                        <p class="project-concepts">
+                            <strong>Concepts:</strong> UI layout structuring, responsive design, reusable component design.
                         </p>
                     </div>
                 </div>
             </div>
-            <!-- Projek Login Template  end -->
 
-            <!-- Projek Penjualan  start -->
+            <!-- Project 2 -->
             <div class="project-card">
                 <div class="project-wrapper">
                     <div class="project-image">
-                        <img src="image/projek1.jpg" alt="Sales & Inventory System Screenshot">
-                        <a href="https://github.com/G-joses/penjualan" class="btn" target="_blank" rel="noopener noreferrer">Source Code</a>
+                        <img src="image/projek1.jpg" alt="Sales & Inventory System">
+                        <div class="project-buttons">
+                            <a href="https://github.com/G-joses/penjualan" class="btn btn-outline" target="_blank" rel="noopener noreferrer">
+                                <i class="fab fa-github"></i> Source Code
+                            </a>
+                        </div>
                     </div>
-
                     <div class="project-content">
+                        <span class="project-tag">HTML · CSS · JavaScript · Laravel 12</span>
                         <h3>Web-Based Sales & Inventory Management System</h3>
-
                         <p>
                             A full stack web application designed to manage product inventory,
-                            record sales transactions, and generate structured reports. 
-                            The system implements role-based authentication to separate 
+                            record sales transactions, and generate structured reports.
+                            The system implements role-based authentication to separate
                             administrative and cashier-level access.
                         </p>
-
-                        <p><strong>Key Features:</strong></p>
-                        <ul>
-                            <li>Authentication system with role-based access (Admin & Cashier)</li>
+                        <ul class="project-features">
+                            <li>Authentication with role-based access (Admin & Cashier)</li>
                             <li>Product CRUD management</li>
-                            <li>Transaction recording with relational database structure</li>
+                            <li>Transaction recording with relational database</li>
                             <li>Monthly sales reporting</li>
                             <li>Export reports to PDF/Excel</li>
                         </ul>
-
-                        <p><strong>Tech Stack:</strong> HTML, CSS, JavaScript, Laravel 12</p>
-
-                        <p><strong>Concepts Applied:</strong> 
-                            MVC architecture, database relationships (one-to-many), 
-                            backend validation, session handling, and structured reporting logic.
-                        </p>
-                        <p>
-                            The system was structured using MVC principles to ensure code separation,
-                            maintainability, and scalability.
+                        <p class="project-concepts">
+                            <strong>Concepts:</strong> MVC architecture, database relationships, backend validation, session handling.
                         </p>
                     </div>
                 </div>
             </div>
-            <!-- Projek Penjualan  end -->
 
-        </section>
+        </div>
+    </section>
 
-        <!-- Experience -->
-        <section id="experience">
-            <h2>IT Support Experience</h2>
-            <div>
-                <p>
-                    Previously worked as IT Support handling daily technical operations 
-                    and system troubleshooting.
-                </p>
-                <ul>
+    <!-- ========================
+         EXPERIENCE
+    ======================== -->
+    <section id="experience">
+        <div class="section-inner">
+            <h2 class="section-title">Experience</h2>
+            <div class="experience-card">
+                <div class="experience-header">
+                    <div>
+                        <h3>IT Support</h3>
+                        <p class="experience-period">1 Year Professional Experience</p>
+                    </div>
+                    <span class="badge">Full-time</span>
+                </div>
+                <ul class="project-features">
                     <li>Troubleshooting hardware and software issues</li>
                     <li>Installing and configuring operating systems</li>
                     <li>Providing technical support to users</li>
                     <li>Basic network setup and maintenance</li>
+                    <li>Set up small-scale network infrastructure from scratch</li>
+                    <li>Configured routers independently using MikroTik RouterOS</li>
                 </ul>
             </div>
-        </section>
-        
-        <footer>
-            <div class="footer-content" id="contact">
-                <p>Let's connect</p>
-                <p>Email : josesdavin911@gmail.com</p>
-                <p class="copyright">© 2026 Joses. All Rights Reserved.</p>
+        </div>
+    </section>
+
+    <!-- ========================
+         FOOTER / CONTACT
+    ======================== -->
+    <footer id="contact">
+        <div class="footer-content">
+            <p class="footer-title">Let's Connect</p>
+            <a href="mailto:josesdavin911@gmail.com" class="footer-email">
+                <i class="fas fa-envelope"></i> josesdavin911@gmail.com
+            </a>
+            <div class="social-icons">
+                <a href="https://github.com/G-joses" target="_blank" aria-label="GitHub">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/gregorius-joses-davin-oemar-869073223/" target="_blank" aria-label="LinkedIn">
+                    <i class="fab fa-linkedin"></i>
+                </a>
             </div>
-        </footer>
-    </body>
+            <p class="copyright">© 2026 Joses. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+</body>
 </html>
